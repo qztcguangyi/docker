@@ -1,3 +1,5 @@
 build: 
   docker:
     worker: Dockerfile.heroku
+run:
+  web: -d --name nps --net=host -v /app:/conf ffdfgdfg/nps        
